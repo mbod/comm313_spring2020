@@ -1,6 +1,6 @@
 ## COMM 313: Computational Text Analysis for Communication Research
-**Spring 2019: M/W 3.30-5pm**  
-**Room: 300 ASC**  
+**Spring 2020: Tu/Th 12.00-1.30pm**  
+**Room: 109 ASC**  
 
 **Professor**: Dr. Matt O'Donnell  
 **Email**: mbod@asc.upenn.edu  
@@ -90,21 +90,26 @@ A central goal of this class is to help students begin to develop programming sk
 * **N.B.** - This is a tentative schedule that is subject to change
 
 ### Week 1 - Overview
-* Wed 01/16/19 - **Course overview**
+* Thur 01/16/20 - **Course overview**
 
 ### Week 2 - Introduction
-* ??? - **Introduction to Corpus Linguistics and NLP** 
+* Tue 01/21/20 - **Introduction to Corpus Linguistics and NLP** 
 	* What are corpus linguistics and natural language processing?
 	* Counting words and finding patterns in language
 
-* Wed 01/23/19 - **Lab session 1**: Setting up Python. Jupyter notebooks. First scripts for text analysis
+* Thur 01/23/19 - **Lab session 1**: Setting up Python. Jupyter notebooks. First scripts for text analysis
 
 ### Week 3 - What is a corpus?
-* Mon 01/28/19 - **Types of corpora**
+* Tue 01/28/19 - **Types of corpora**
     - **Readings**: _Baker Chs. 1&2_; _NLTK Book Ch. 1 (sections 1, 2 & 4 )_ http://www.nltk.org/book/ch01.html  
     - **Assignment 1 DUE 5pm**
 
-* Wed 01/30/19 - **Lab session 2**: Reading files. Listing directories. Manipulating strings. Loops and Conditions.
+* Thur 01/30/19 - **Lab session 2**: Reading files. Listing directories. Manipulating strings. Loops and Conditions.
+
+----
+
+** UPDATING **
+
 
 ### Week 4 - Frequency lists and Concordance Analysis
 * Mon 02/04/19 - **How and what to count**

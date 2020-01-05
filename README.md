@@ -1,5 +1,5 @@
 ## COMM 313: Computational Text Analysis for Communication Research
-**Spring 2019 Annenberg School for Communication, University of Pennsylvania**
+**Spring 2020 Annenberg School for Communication, University of Pennsylvania**
 
 **Professor**: Dr. Matt O'Donnell
 **Email**: mbod@asc.upenn.edu

@@ -7,6 +7,13 @@
 **Office Hours**: TBA & by appointment
 **Office**: 404 ASC  
 
+**Teaching Assistants**
+
+1. Roopa Vasudevan
+  * **Email**: roopa.vasudevan@asc.upenn.edu
+2. Alvin Zhou
+  * **Email**: XXX@asc.upenn.edu
+
 ## Course Description, Goals and Objectives
 
 In this hands-on course students will learn how to manage large textual datasets (e.g. Twitter, YouTube, news stories) to investigate research questions. They will work through a series of steps to collect,
@@ -37,12 +44,18 @@ in which students will work through programming exercises using Jupyter notebook
 
 ## Assessment
 
-1. **Complete the assigned readings and participation in class discussion (10%)**
+1. **Complete the assigned readings and corpus builiding exercises (10%)**
 	* Readings for each week will be posted on Canvas when electronic versions are available or taken from one of the recommended textbooks.
+	* Throughout the course you will be asked to complete short writing exercises that will be used to build a class corpus for analysis. Details will be discussed in class and posted on Canvas.
+		* Examples of the prompts might be:
+			* _Describe your interest in Communication research._
+			* _Look at this picture closely for a minute and then write a paragraph describing what you see._
+			* _Write about your earliest memory._
+			* _Create a recipe for a fried or boiled egg for your room mate who doesn't know how to cook._
 2. **Attend weekly lab sessions and complete the assigned exercises (40%)**
-    * Wednesday class sessions will be programming labs. Students are required to bring a laptop that can connect to the ASC network. Please contact the me if this is difficult and we can see if a machine can be made available for use in lab.
+    * Thursday class sessions will _usually_ be programming labs. Students are required to bring a laptop that can connect to the ASC network. Please contact the me if this is difficult and we can see if a machine can be made available for use in lab.
 	* We will be using Jupyter notebooks to learn Python, which are a web-based interactive programming environment. Assignments will be completed in this and submitted to the instructor. Details of using this system for assignments will be covered in the first lab session.
-	* Weekly assignments will be due at 5pm on the Monsday following lab session (see schedule for details). These assignments are intended to help students practice the programming concepts and structures introduced in lab and build confidence. They should not be difficult or take excessive time but they do build from week to week so it is _very_ important to keep up.
+	* Weekly assignments will be due at 5pm on the Tuesday following lab session (see schedule for details). These assignments are intended to help students practice the programming concepts and structures introduced in lab and build confidence. They should not be difficult or take excessive time but they do build from week to week so it is _very_ important to keep up.
 3. **Complete a project that uses the techniques and theory covered in class to carry out a text analysis of a specific research question agreed upon with the instructor (50%)**
     * The goal of this project is to create an engaging blog post similar those produced by data journalists after [State of the Union](https://www.washingtonpost.com/news/monkey-cage/wp/2015/01/21/the-state-of-the-union-address-in-a-single-figure/?utm_term=.1a2854849261) addresses or on a topic like ['How men and women talk about love'](https://www.nytimes.com/interactive/2017/11/07/upshot/modern-love-what-we-write-when-we-write-about-love.html) in the NYTimes recently.
     
@@ -91,35 +104,59 @@ A central goal of this class is to help students begin to develop programming sk
 
 ### Week 1 - Overview
 * Thur 01/16/20 - **Course overview**
+	* Language as a social tool and language  data as traces of communicative acts
+	* Review of course overview notebook
 
 ### Week 2 - Introduction
 * Tue 01/21/20 - **Introduction to Corpus Linguistics and NLP** 
 	* What are corpus linguistics and natural language processing?
 	* Counting words and finding patterns in language
+	* Jupyter and Python basics
+		* Using JupyterHub and notebooks
+		* Markdown
+		* Python string objects
 
-* Thur 01/23/19 - **Lab session 1**: Setting up Python. Jupyter notebooks. First scripts for text analysis
+* Thur 01/23/19 - **Lab session 1**
+	* Topics:
+		* Jupyter notebooks. 
+		* First scripts for text analysis. 
+		* Working with Python `string` objects
+			* `string` functions
+			* Indexing and slicing `string` objects
+		* Reading text files into string objects.
+	* __Assignment 1__: Working with Python String Objects
 
 ### Week 3 - What is a corpus?
-* Tue 01/28/19 - **Types of corpora**
+* Tue 01/28/20 - **Types of corpora**
     - **Readings**: _Baker Chs. 1&2_; _NLTK Book Ch. 1 (sections 1, 2 & 4 )_ http://www.nltk.org/book/ch01.html  
-    - **Assignment 1 DUE 5pm**
+    - **Assignment 1 DUE 5pm** - Submit through JupyterHub
 
-* Thur 01/30/19 - **Lab session 2**: Reading files. Listing directories. Manipulating strings. Loops and Conditions.
-
-----
-
-** UPDATING **
+* Thur 01/30/20 - **Lab session 2**
+	* Topics:
+		* Working with Python `list` objects
+		* Basic tokenization, turning text strings to lists of strings
+		* Listing directories 
+		* Loops and Conditions.
+	* __Assignment 2__: Working with Python lists
 
 
 ### Week 4 - Frequency lists and Concordance Analysis
-* Mon 02/04/19 - **How and what to count**
+* Tue 02/04/20 - **How and what to count**
 	* Word and N-Gram lists
 	* Dispersion
 	* Using concordances (Keyword-in-context = KWIC) to find patterns and meaning
     - __Readings__: _Baker Chs. 3&4_; _NLTK Book Ch. 2 (esp. sections 1,2&4 )_ http://www.nltk.org/book/ch02.html
 	- **Assignment 2 DUE 5pm**
 
-* Wed 02/06/19 - **Lab session 3**: Creating frequency distributions and KWIC displays. Visualization techniques. Filtering lists.
+* Wed 02/06/20 - **Lab session 3**: Creating frequency distributions and KWIC displays. Visualization techniques. Filtering lists.
+
+
+
+
+----
+
+** UPDATING **
+
 
 ### Week 5 - Finding, building and using corpora
 * Mon 02/11/19 - **Corpus compilation**

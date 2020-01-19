@@ -201,7 +201,8 @@ A central goal of this class is to help students begin to develop programming sk
 ----
 
 ** UPDATING **
-~~
+
+<strike>
 ### Week 7 - Finding, building and using corpora - Part 2
 * Mon 02/11/19 - **Corpus compilation**
     * Extracting text from structured data
@@ -289,4 +290,4 @@ A central goal of this class is to help students begin to develop programming sk
 
 ### Week 16 - Class projects
 * Mon 04/29/19 - **Project presentations**
-~~
+</strike>

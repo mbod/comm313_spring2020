@@ -120,7 +120,7 @@ A central goal of this class is to help students begin to develop programming sk
 			* Python string objects
 
 * Thur 01/23/19 - **Lab session 1**
-	* Topics:
+	* _Topics_:
 		* Jupyter notebooks. 
 		* First scripts for text analysis. 
 		* Working with Python `string` objects
@@ -131,20 +131,20 @@ A central goal of this class is to help students begin to develop programming sk
 
 ### Week 3 - What is a corpus?
 * Tue 01/28/20 - **Types of corpora**
-    - Topics:
+    - _Topics_:
 	* What is a corpus?
 	* Types of corpus
 	  - general vs specialized
           - matched genre vs variety
           - synchronic vs diachronic 
     - _Coding_:
-	* Working with sequences using Python `list` objects
-	* List indexing and slicing
+        * Working with sequences using Python `list` objects
+        * List indexing and slicing
     - **Readings**: _Baker Chs. 1&2_; _NLTK Book Ch. 1 (sections 1, 2 & 4 )_ http://www.nltk.org/book/ch01.html  
     - **Assignment 1 DUE 5pm** - Submit through JupyterHub
 
 * Thur 01/30/20 - **Lab session 2**
-	* Topics:
+	* _Topics_:
 		* Working with Python `list` objects
 		* Basic tokenization, turning text strings to lists of strings
 		* Listing directories 
@@ -152,18 +152,18 @@ A central goal of this class is to help students begin to develop programming sk
 
 ### Week 4 - Frequency lists  
 * Tue 02/04/20 - **How and what to count**
-    - Topics:
-	* Word and N-Gram lists
-	* Dispersion
+    - _Topics_:
+        * Word and N-Gram lists
+        * Dispersion
     - _Coding_:
-	* `Counter` object
-	* Loops 
-        * Conditions.
+        * `Counter` object
+        * Loops
+        * Conditions
     - __Readings__: _Baker Chs. 3_; _NLTK Book Ch. 2 (esp. sections 1,2&4 )_ http://www.nltk.org/book/ch02.html
     - **Assignment 2 DUE 5pm** - submit through JupyterHub
 
 * Wed 02/06/20 - **Lab session 3**: 
-	* Topics:
+	* _Topics_:
 		* Using `Counter` to create frequency distributions.
 		* `for` loops
 		* Conditional constructions
@@ -176,24 +176,26 @@ A central goal of this class is to help students begin to develop programming sk
     - _Topics:_
     	* Extracting texts from documents
         * Organizing a corpus
-	* Using APIs to compile a corpus (e.g. Genius, Twitter)
+        * Using APIs to compile a corpus (e.g. Genius, Twitter)
     - _Coding:_
+        * Dictionaries
     - **Readings**: _Baker Chs. 3&4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
     - **Assignment 3 DUE 5pm**
 
 * Thur 02/13/19 - **Lab session 4**: Extracting text from web pages. Downloading data. Functions.
 
 
-### Week 6 - Concordance Analysis ? Corpus Building #1
+### Week 6 - Concordance Analysis
 * Tue 02/18/20 - **Corpus compilation**
     - _Topics_:
     	* Using concordances (Keyword-in-context = KWIC) to find patterns and meaning
     - _Coding_:
-	* Dictionaries
+        * Nested lists
+        * Sorting lists
     * **Readings**: _Baker Ch. 4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
-	* **Assignment 4 DUE 5pm** - submit through JupyterHub
+        * **Assignment 4 DUE 5pm** - submit through JupyterHub
 
-* Thur 02/29/20 - **Lab session 4**: Extracting text from web p
+* Thur 02/29/20 - **Lab session 4**
 
 
 ----

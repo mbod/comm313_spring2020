@@ -132,9 +132,9 @@ A central goal of this class is to help students begin to develop programming sk
 ### Week 3 - What is a corpus?
 * Tue 01/28/20 - **Types of corpora**
     - _Topics_:
-	* What is a corpus?
-	* Types of corpus
-	  - general vs specialized
+        * What is a corpus?
+        * Types of corpus
+          - general vs specialized
           - matched genre vs variety
           - synchronic vs diachronic 
     - _Coding_:
@@ -162,7 +162,7 @@ A central goal of this class is to help students begin to develop programming sk
     - __Readings__: _Baker Chs. 3_; _NLTK Book Ch. 2 (esp. sections 1,2&4 )_ http://www.nltk.org/book/ch02.html
     - **Assignment 2 DUE 5pm** - submit through JupyterHub
 
-* Wed 02/06/20 - **Lab session 3**: 
+* Thur 02/06/20 - **Lab session 3**: 
 	* _Topics_:
 		* Using `Counter` to create frequency distributions.
 		* `for` loops
@@ -179,23 +179,45 @@ A central goal of this class is to help students begin to develop programming sk
         * Using APIs to compile a corpus (e.g. Genius, Twitter)
     - _Coding:_
         * Dictionaries
+        * Writing files
+        * Working with JSON
     - **Readings**: _Baker Chs. 3&4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
     - **Assignment 3 DUE 5pm**
 
-* Thur 02/13/19 - **Lab session 4**: Extracting text from web pages. Downloading data. Functions.
+* Thur 02/13/19 - **Lab session 4**: 
+    * _Topics_:
+        * Splitting up a string into chunks
+        * Writing a `string` object to a file
+        * List of dictionaries structure
 
+    * __Assignment 4__: Creating a corpus
 
 ### Week 6 - Concordance Analysis
-* Tue 02/18/20 - **Corpus compilation**
+* Tue 02/18/20 - **Working with KWIC concordances**
     - _Topics_:
     	* Using concordances (Keyword-in-context = KWIC) to find patterns and meaning
     - _Coding_:
         * Nested lists
         * Sorting lists
-    * **Readings**: _Baker Ch. 4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
-        * **Assignment 4 DUE 5pm** - submit through JupyterHub
+    - **Readings**: _Baker Ch. 4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
+    - **Assignment 4 DUE 5pm** - submit through JupyterHub
 
-* Thur 02/29/20 - **Lab session 4**
+* Thur 02/20/20 - **Lab session 5**
+
+
+### Week 7 - Finding, building and using corpora - Part 2
+* Tue 02/25/20 - **Online corpus compilation**
+    - _Topics_:
+        * Using APIs to compile a corpus (e.g. Twitter)
+        * Web scraping and crawling
+    - _Coding_:
+
+    - **Readings**: _Baker Chs. 3&4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
+    - **Assignment 5 DUE 5pm**
+
+* Thur 02/27/20 - **Lab session 6**
+
+ - Extracting text from web pages. Downloading data. Functions.
 
 
 ----
@@ -203,14 +225,6 @@ A central goal of this class is to help students begin to develop programming sk
 ** UPDATING **
 
 <strike>
-### Week 7 - Finding, building and using corpora - Part 2
-* Mon 02/11/19 - **Corpus compilation**
-    * Extracting text from structured data
-	  * Using APIs to compile a corpus (e.g. Twitter)
-	  * Web scraping and crawling
-    * **Readings**: _Baker Chs. 3&4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
-	* **Assignment 3 DUE 5pm**
-* Wed 02/13/19 - **Lab session 4**: Extracting text from web pages. Downloading data. Functions.
 
 
 

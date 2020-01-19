@@ -1,4 +1,4 @@
-## COMM 313: Computational Text Analysis for Communication Research
+## COMM313: Computational Text Analysis for Communication Research
 **Spring 2020: Tu/Th 12.00-1.30pm**  
 **Room: 109 ASC**  
 
@@ -19,7 +19,7 @@
 In this hands-on course students will learn how to manage large textual datasets (e.g. Twitter, YouTube, news stories) to investigate research questions. They will work through a series of steps to collect,
 organize, analyze and present textual data by using automated tools toward a final project of relevant interest.  The course will cover linguistic theory and techniques that can be applied to textual data (particularly from the fields of corpus linguistics and natural language processing).
 
-No prior programming experience is required. Through this course students will gain skills writing Python programs to handle large amounts of textual data and become familiar with one of the key techniques used by data scientists, which is currently one of the most in-demand jobs.
+_No prior programming experience is required._ Through this course students will gain skills writing Python programs to handle large amounts of textual data and become familiar with one of the key techniques used by data scientists, which is currently one of the most in-demand jobs.
 
 * This course will provide an introduction to Python programming for collecting, preparing and analyzing text data from various sources including
 social media (e.g. Twitter), weblogs, online news media and various publicly available archives (e.g. presidential speech achive, congressional sessions).
@@ -83,8 +83,9 @@ in which students will work through programming exercises using Jupyter notebook
          5. Interpret findings
             * How does your text analysis answer your research question?
             * Why and how does it matter?
-         6. Write up in a blog post 
-
+         6. Write up in a blog post
+	    * Some examples of the style and length of blog post will be discussed.
+            * Data science and particularly textual and language analysis focused posts on `medium.com` are good models for what you are trying to produce.   
 
             These steps will be scheduled throughout the course allowing for the instructor to help you find a manageable problem, acquire the necessary data and be able to carry out the appropriate computational analysis.
             
@@ -109,12 +110,14 @@ A central goal of this class is to help students begin to develop programming sk
 
 ### Week 2 - Introduction
 * Tue 01/21/20 - **Introduction to Corpus Linguistics and NLP** 
-	* What are corpus linguistics and natural language processing?
-	* Counting words and finding patterns in language
-	* Jupyter and Python basics
-		* Using JupyterHub and notebooks
-		* Markdown
-		* Python string objects
+	* _Topics_:
+		* What are _corpus linguistics_ and _natural language processing_?
+		* Counting words and finding patterns in language
+	* _Coding_:
+		* Jupyter and Python basics
+			* Using JupyterHub and notebooks
+			* Markdown
+			* Python string objects
 
 * Thur 01/23/19 - **Lab session 1**
 	* Topics:
@@ -128,6 +131,15 @@ A central goal of this class is to help students begin to develop programming sk
 
 ### Week 3 - What is a corpus?
 * Tue 01/28/20 - **Types of corpora**
+    - Topics:
+	* What is a corpus?
+	* Types of corpus
+	  - general vs specialized
+          - matched genre vs variety
+          - synchronic vs diachronic 
+    - _Coding_:
+	* Working with sequences using Python `list` objects
+	* List indexing and slicing
     - **Readings**: _Baker Chs. 1&2_; _NLTK Book Ch. 1 (sections 1, 2 & 4 )_ http://www.nltk.org/book/ch01.html  
     - **Assignment 1 DUE 5pm** - Submit through JupyterHub
 
@@ -136,29 +148,59 @@ A central goal of this class is to help students begin to develop programming sk
 		* Working with Python `list` objects
 		* Basic tokenization, turning text strings to lists of strings
 		* Listing directories 
-		* Loops and Conditions.
 	* __Assignment 2__: Working with Python lists
 
-
-### Week 4 - Frequency lists and Concordance Analysis
+### Week 4 - Frequency lists  
 * Tue 02/04/20 - **How and what to count**
+    - Topics:
 	* Word and N-Gram lists
 	* Dispersion
-	* Using concordances (Keyword-in-context = KWIC) to find patterns and meaning
-    - __Readings__: _Baker Chs. 3&4_; _NLTK Book Ch. 2 (esp. sections 1,2&4 )_ http://www.nltk.org/book/ch02.html
-	- **Assignment 2 DUE 5pm**
+    - _Coding_:
+	* `Counter` object
+	* Loops 
+        * Conditions.
+    - __Readings__: _Baker Chs. 3_; _NLTK Book Ch. 2 (esp. sections 1,2&4 )_ http://www.nltk.org/book/ch02.html
+    - **Assignment 2 DUE 5pm** - submit through JupyterHub
 
-* Wed 02/06/20 - **Lab session 3**: Creating frequency distributions and KWIC displays. Visualization techniques. Filtering lists.
+* Wed 02/06/20 - **Lab session 3**: 
+	* Topics:
+		* Using `Counter` to create frequency distributions.
+		* `for` loops
+		* Conditional constructions
+		* Filtering lists and objects.
+	* __Assignment 3__: Creating frequency lists using the `Counter` object
 
 
+### Week 5 - Finding, building and using corpora - Part 1
+* Tue  02/11/20 - **Corpus compilation**
+    - _Topics:_
+    	* Extracting texts from documents
+        * Organizing a corpus
+	* Using APIs to compile a corpus (e.g. Genius, Twitter)
+    - _Coding:_
+    - **Readings**: _Baker Chs. 3&4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
+    - **Assignment 3 DUE 5pm**
+
+* Thur 02/13/19 - **Lab session 4**: Extracting text from web pages. Downloading data. Functions.
+
+
+### Week 6 - Concordance Analysis ? Corpus Building #1
+* Tue 02/18/20 - **Corpus compilation**
+    - _Topics_:
+    	* Using concordances (Keyword-in-context = KWIC) to find patterns and meaning
+    - _Coding_:
+	* Dictionaries
+    * **Readings**: _Baker Ch. 4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
+	* **Assignment 4 DUE 5pm** - submit through JupyterHub
+
+* Thur 02/29/20 - **Lab session 4**: Extracting text from web p
 
 
 ----
 
 ** UPDATING **
 
-
-### Week 5 - Finding, building and using corpora
+### Week 7 - Finding, building and using corpora - Part 2
 * Mon 02/11/19 - **Corpus compilation**
     * Extracting text from structured data
 	  * Using APIs to compile a corpus (e.g. Twitter)
@@ -166,6 +208,14 @@ A central goal of this class is to help students begin to develop programming sk
     * **Readings**: _Baker Chs. 3&4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
 	* **Assignment 3 DUE 5pm**
 * Wed 02/13/19 - **Lab session 4**: Extracting text from web pages. Downloading data. Functions.
+
+
+
+???  and KWIC displays. Visualization techniques. 
+
+
+
+
 
 ### Week 6 - Collocation
 * Mon 02/18/19 - **Words _have_ friends**

@@ -8,11 +8,8 @@
 **Office**: 404 ASC  
 
 **Teaching Assistants**
-
-1. Roopa Vasudevan
-  * **Email**: roopa.vasudevan@asc.upenn.edu
-2. Alvin Zhou
-  * **Email**: yixiao.zhou@asc.upenn.edu
+1. Roopa Vasudevan - roopa.vasudevan@asc.upenn.edu
+2. Alvin Zhou - yixiao.zhou@asc.upenn.edu
 
 ## Course Description, Goals and Objectives
 
@@ -220,6 +217,20 @@ A central goal of this class is to help students begin to develop programming sk
  - Extracting text from web pages. Downloading data. Functions.
 
 
+### Week 8 - Keyness
+* Tue 03/3/20 - **Discovering distinctive vocabulary**
+  	* 'Aboutness' in text
+  	* Kinds of comparison
+  	* Statistical significance and association
+    * **Readings**: _Baker Ch. 6_; _NLTK Book Ch. 4 (sections 3&4)_ http://www.nltk.org/book/ch04.html
+    * **Assignment 6 DUE 5pm**
+* Thur 03/5/20 - **Lab session 6**
+
+
+### Week 9 - Spring Break
+* Tue 03/10/20 - NO CLASS
+* Thur 03/12/20 - NO CLASS
+
 ----
 
 ** UPDATING **
@@ -243,19 +254,8 @@ A central goal of this class is to help students begin to develop programming sk
 	* **Assignment 4 DUE 5pm**
 * Wed 02/20/19 - **Lab session 5**: Data structures. Visualization. Functions.
 
-### Week 7 - Keyness
-* Mon 02/25/19 - **Discovering distinctive vocabulary**
-  	* 'Aboutness' in text
-  	* Kinds of comparison
-  	* Statistical significance and association
-    * **Readings**: _Baker Ch. 6_; _NLTK Book Ch. 4 (sections 3&4)_ http://www.nltk.org/book/ch04.html
-    * **Assignment 5 DUE 5pm**
-* Wed 02/27/19 - **Lab session 6**
 
 
-### Week 8 - Spring Break
-* Mon 03/04/19 - NO CLASS
-* Wed 03/06/19 - NO CLASS
 
 
 ### Week 9 - Introduction to NLP

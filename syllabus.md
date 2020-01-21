@@ -108,13 +108,14 @@ A central goal of this class is to help students begin to develop programming sk
 ### Week 2 - Introduction
 * Tue 01/21/20 - **Introduction to Corpus Linguistics and NLP** 
 	* _Topics_:
-		* What are _corpus linguistics_ and _natural language processing_?
-		* Counting words and finding patterns in language
+	   * What are _corpus linguistics_ and _natural language processing_?
+	       - Counting _words_ and finding patterns in language
+	       - Constructing _models_ of language data
 	* _Coding_:
-		* Jupyter and Python basics
-			* Using JupyterHub and notebooks
-			* Markdown
-			* Python string objects
+	   * Jupyter and Python basics
+	       - Using JupyterHub and notebooks
+	       - Markdown
+	       - Python string objects
 
 * Thur 01/23/19 - **Lab session 1**
 	* _Topics_:
@@ -131,9 +132,9 @@ A central goal of this class is to help students begin to develop programming sk
     - _Topics_:
         * What is a corpus?
         * Types of corpus
-          - general vs specialized
-          - matched genre vs variety
-          - synchronic vs diachronic 
+          - _general vs specialized_
+          - _matched genre vs variety_
+          - _synchronic vs diachronic_
     - _Coding_:
         * Working with sequences using Python `list` objects
         * List indexing and slicing
@@ -142,9 +143,9 @@ A central goal of this class is to help students begin to develop programming sk
 
 * Thur 01/30/20 - **Lab session 2**
 	* _Topics_:
-		* Working with Python `list` objects
-		* Basic tokenization, turning text strings to lists of strings
-		* Listing directories 
+	    * Working with Python `list` objects
+	    * Basic tokenization, turning text strings to lists of strings
+	    * Listing files and directories 
 	* __Assignment 2__: Working with Python lists
 
 ### Week 4 - Frequency lists  
@@ -161,10 +162,10 @@ A central goal of this class is to help students begin to develop programming sk
 
 * Thur 02/06/20 - **Lab session 3**: 
 	* _Topics_:
-		* Using `Counter` to create frequency distributions.
-		* `for` loops
-		* Conditional constructions
-		* Filtering lists and objects.
+	    * Using `Counter` to create frequency distributions.
+	    * `for` loops
+	    * Conditional constructions
+	    * Filtering lists and objects.
 	* __Assignment 3__: Creating frequency lists using the `Counter` object
 
 
@@ -178,16 +179,18 @@ A central goal of this class is to help students begin to develop programming sk
         * Dictionaries
         * Writing files
         * Working with JSON
+	* Functions
     - **Readings**: _Baker Chs. 3&4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
     - **Assignment 3 DUE 5pm**
 
 * Thur 02/13/19 - **Lab session 4**: 
-    * _Topics_:
+    - _Topics_:
         * Splitting up a string into chunks
         * Writing a `string` object to a file
         * List of dictionaries structure
+	* Functions
+    - __Assignment 4__: Creating a text corpus
 
-    * __Assignment 4__: Creating a corpus
 
 ### Week 6 - Concordance Analysis
 * Tue 02/18/20 - **Working with KWIC concordances**
@@ -196,40 +199,71 @@ A central goal of this class is to help students begin to develop programming sk
     - _Coding_:
         * Nested lists
         * Sorting lists
+	* Functions
     - **Readings**: _Baker Ch. 4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
     - **Assignment 4 DUE 5pm** - submit through JupyterHub
 
 * Thur 02/20/20 - **Lab session 5**
+    - _Topics_:
+	* sorting lists
+	* the list-of-lists structure
+	* creating and using functions
+    - __Assignment 5__: Analysis KWIC concordances
 
 
 ### Week 7 - Finding, building and using corpora - Part 2
 * Tue 02/25/20 - **Online corpus compilation**
     - _Topics_:
         * Using APIs to compile a corpus (e.g. Twitter)
-        * Web scraping and crawling
+	* Understanding web page structures
+	* HTML and CSS basics
+        * Using web scraping and crawling to build a corpus
     - _Coding_:
-
-    - **Readings**: _Baker Chs. 3&4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
+        * Using `requests` for web page and API access
+	* Working with JSON in Python
+	* Using `BeautifulSoup` to extract text from HTML
+    - **Readings**: _Baker Chs. 2_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
     - **Assignment 5 DUE 5pm**
 
 * Thur 02/27/20 - **Lab session 6**
+    - _Topics_:
+        * downloading web pages
+	* navigating HTML documents and extracting text
+        * code blocks in functions
+    - __Assignment 6__: Building a web corpus
 
- - Extracting text from web pages. Downloading data. Functions.
 
+### Week 8 - Collocation
+* Tue 03/3/19 - **Words _have_ friends**
+    - _Topics_:
+        * Discovering meaning through context
+	* Comparing words through collocation
+	* Collocation profiles
+    - _Coding_:
 
-### Week 8 - Keyness
-* Tue 03/3/20 - **Discovering distinctive vocabulary**
-  	* 'Aboutness' in text
-  	* Kinds of comparison
-  	* Statistical significance and association
-    * **Readings**: _Baker Ch. 6_; _NLTK Book Ch. 4 (sections 3&4)_ http://www.nltk.org/book/ch04.html
-    * **Assignment 6 DUE 5pm**
-* Thur 03/5/20 - **Lab session 6**
-
+    - **Readings**: _Baker Ch. 5_; _NLTK Book Ch. 4 (sections 1&2)_ http://www.nltk.org/book/ch03.html
+    - **Assignment 6 DUE 5pm**
+* Thur 03/5/19 - **Lab session 7**
 
 ### Week 9 - Spring Break
 * Tue 03/10/20 - NO CLASS
 * Thur 03/12/20 - NO CLASS
+
+### Week 10 - Keyness
+* Tue 03/17/20 - **Discovering distinctive vocabulary**
+    - _Topics_:  
+        * 'Aboutness' in text
+        * Kinds of comparison
+        * Statistical significance and association
+    - _Coding_:
+
+    * **Readings**: _Baker Ch. 6_; _NLTK Book Ch. 4 (sections 3&4)_ http://www.nltk.org/book/ch04.html
+    * **Assignment 7 DUE 5pm**
+
+* Thur 03/19/20 - **Lab session 8**
+    - _Topics_:  
+
+
 
 ----
 
@@ -238,70 +272,41 @@ A central goal of this class is to help students begin to develop programming sk
 <strike>
 
 
-
-???  and KWIC displays. Visualization techniques. 
-
-
-
-
-
-### Week 6 - Collocation
-* Mon 02/18/19 - **Words _have_ friends**
-  * Discovering meaning through context
-	* Comparing words through collocation
-	* Collocation profiles
-    * **Readings**: _Baker Ch. 5_; _NLTK Book Ch. 4 (sections 1&2)_ http://www.nltk.org/book/ch03.html
-	* **Assignment 4 DUE 5pm**
-* Wed 02/20/19 - **Lab session 5**: Data structures. Visualization. Functions.
-
-
-
-
-
-### Week 9 - Introduction to NLP
-* Mon 03/11/19 - **Core concepts and techniques**
+### Week 11 - Introduction to NLP
+* Tue 03/24/20 - **Core concepts and techniques**
     * NLP pipeline
   	* Key tasks: POS tagging, parsing, anaphora resolution, role identification
   	* Example Applications
     * **Readings**: _NLTK Book Ch. 1 (section 5)_ (http://www.nltk.org/book/ch01.html) and _Ch. 5_ (http://www.nltk.org/book/ch05.html)
     * **Assignment 6 DUE 5pm**
-* Wed 03/13/19 - **Lab session 7**: Using NLTK; NLP Pipeline
+* Thur 03/26/20 - **Lab session 7**: Using NLTK; NLP Pipeline
 
-### Week 10 - NLP: Affect and Sentiment analysis #1
-* Mon 03/18/19 - **Measuring emotion in text**
-* Wed 03/20/19 - **Lab session 8**: Using affect lexicons
+### Week 12 - NLP: Affect and Sentiment analysis #1
+* Tue 03/31/20 - **Measuring emotion in text**
+* Thur 04/2/20 - **Lab session 8**: Using affect lexicons
   	* **Assignment 7 DUE 5pm**
 
-### Week 11 - NLP: Affect and Sentiment analysis #2
-* Mon 03/25/19 - **Sentiment classification**
+### Week 13 - NLP: Affect and Sentiment analysis #2
+* Tue 04/7/20 - **Sentiment classification**
   	* Supervised machine learning
   	* Building a training corpus
   	* Measuring accuracy
     * **Readings**: _NLTK Book Ch. 6_ (http://www.nltk.org/book/ch06.html)
   	* **Assignment 8 DUE 5pm**
 
-* Wed 03/27/19 - **Lab session 9**: Building a sentiment classifier
+* Thur 04/9/20 - **Lab session 9**: Building a sentiment classifier
 
-### Week 12 - NLP: Named Entity Recognition (NER): Who, what, when and where?
-* Mon 04/01/19 - **Identifying actors and actions in text**
+### Week 14 - NLP: Named Entity Recognition (NER): Who, what, when and where?
+* Tue 04/14/20 - **Identifying actors and actions in text**
   	* **Readings**: _NLTK Book Ch. 7_ (http://www.nltk.org/book/ch07.html)
   	* **Assignment 9 DUE 5pm**
-* Wed 04/03/19 - **Lab session 10**: NER and parsed corpora
+* Thur 04/16/20 - **Lab session 10**: NER and parsed corpora
 
-### Week 13 - NLP: Topic models #1
-* Mon 04/08/19 - **Discovering clusters of words in text collections** 
+### Week 15 - NLP: Topic models
+* Tue 04/21/19 - **Discovering clusters of words in text collections** 
 	* **Assignment 10 DUE 5pm**
-* Wed 04/10/19 - **Lab session 11**: Topic models and visualization
-
-### Week 14 - NLP: Topic models #2
-* Mon 04/15/19 - **Tracing topics over time** 
-	* **Assignment 11 DUE 5pm**
-* Wed 04/17/19 - **Lab session 12**: Working on projects
-
-### Week 15 - Class projects
-* Mon 04/22/19 - **Lab session 13**: Working on projects
-* Wed 04/24/19 - **Lab session 14**: Working on projects
+* Thur 04/23/19 - **Lab session 11**: Topic models and visualization
 
 ### Week 16 - Class projects
-* Mon 04/29/19 - **Project presentations**
+* Tue 04/28/19 - **Project presentations**
 </strike>

@@ -160,16 +160,20 @@ A central goal of this class is to help students begin to develop programming sk
     - __Readings__: _Baker Chs. 3_; _NLTK Book Ch. 2 (esp. sections 1,2&4 )_ http://www.nltk.org/book/ch02.html
     - **Assignment 2 DUE 5pm** - submit through JupyterHub
 
-* Thur 02/06/20 - **Lab session 3**: 
+* Thur 02/06/20 - **Lab session 3**: _CANCELLED DUE TO ILLNESS_
+<strike>
 	* _Topics_:
 	    * Using `Counter` to create frequency distributions.
 	    * `for` loops
 	    * Conditional constructions
 	    * Filtering lists and objects.
-	* __Assignment 3__: Creating frequency lists using the `Counter` object
-
+</strike>
 
 ### Week 5 - Finding, building and using corpora - Part 1
+
+* Mon 02/10/20 
+    * POSTED: __Assignment 3__: Creating frequency lists using the `Counter` object
+
 * Tue  02/11/20 - **Corpus compilation**
     - _Topics:_
     	* Extracting texts from documents
@@ -181,15 +185,17 @@ A central goal of this class is to help students begin to develop programming sk
         * Working with JSON
 	* Functions
     - **Readings**: _Baker Chs. 3&4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
-    - **Assignment 3 DUE 5pm**
 
-* Thur 02/13/19 - **Lab session 4**: 
+* Thur 02/13/20 - **Lab session 4**: 
     - _Topics_:
         * Splitting up a string into chunks
         * Writing a `string` object to a file
         * List of dictionaries structure
 	* Functions
     - __Assignment 4__: Creating a text corpus
+
+* Fri 02/14/20
+    - **Assignment 3 DUE FRIDAY 2/14/20 5pm**
 
 
 ### Week 6 - Concordance Analysis

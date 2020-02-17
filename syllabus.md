@@ -194,8 +194,8 @@ A central goal of this class is to help students begin to develop programming sk
 	* Functions
     - __Assignment 4__: Creating a text corpus
 
-* Fri 02/14/20
-    - **Assignment 3 DUE FRIDAY 2/14/20 5pm**
+* Sat 02/15/20
+    - **Assignment 3 DUE SATURDAY 2/15/20 12pm**
 
 
 ### Week 6 - Concordance Analysis
@@ -207,13 +207,13 @@ A central goal of this class is to help students begin to develop programming sk
         * Sorting lists
 	* Functions
     - **Readings**: _Baker Ch. 4_; _NLTK Book Ch. 3_ http://www.nltk.org/book/ch03.html
-    - **Assignment 4 DUE 5pm** - submit through JupyterHub
 
 * Thur 02/20/20 - **Lab session 5**
+    - **Assignment 4 DUE 12pm** - submit through JupyterHub
     - _Topics_:
-	* sorting lists
-	* the list-of-lists structure
-	* creating and using functions
+         * sorting lists
+         * the list-of-lists structure
+         * creating and using functions
     - __Assignment 5__: Analysis KWIC concordances
 
 

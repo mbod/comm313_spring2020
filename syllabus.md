@@ -264,7 +264,6 @@ A central goal of this class is to help students begin to develop programming sk
     - _Coding_:
 
     * **Readings**: _Baker Ch. 6_; _NLTK Book Ch. 4 (sections 3&4)_ http://www.nltk.org/book/ch04.html
-    * **Assignment 7 DUE 5pm**
 
 * Thur 03/19/20 - **Lab session 8**
     - _Topics_:  
